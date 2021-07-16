@@ -9,7 +9,7 @@ corsProxy
   .createServer({
     originWhitelist: [
       "http://localhost:3000",
-      "https://ann-codes.github.io/",
+      "https://ann-codes.github.io",
     ],
     requireHeader: ["origin", "x-requested-with"],
     removeHeaders: ["cookie", "cookie2"],
